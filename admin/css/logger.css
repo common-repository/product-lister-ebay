@@ -1,0 +1,181 @@
+.ced-logs {
+	max-width: 800px;
+	width: 100%;
+	box-sizing: border-box
+}
+
+.ced-logs__item {
+	position: relative;
+	border: 1px solid #ddd;
+	border-top-width: 4px;
+	background: #f5f5f5;
+	margin-bottom: 10px;
+	color: #757575
+}
+
+.ced-logs__item.ced-logs__item--active {
+	background: #fff
+}
+
+.ced-logs__item:before {
+	font-family: dashicons;
+	display: inline-block;
+	font-size: 20px;
+	position: absolute;
+	top: 10px;
+	left: 5px
+}
+
+.ced-logs__item:last-child {
+	margin-bottom: 0
+}
+
+.ced-logs__item--error {
+	border-color: #dc32326e
+}
+
+.ced-logs__item--warning {
+	border-color: #ffb90073
+}
+
+.ced-logs__item--info {
+	border-color: #00a0d278
+}
+
+.ced-log-message {
+	padding: 20px 10px;
+	border-top: 1px dashed #ddd;
+	border-bottom: 1px dashed #ddd
+}
+
+.ced-log-meta {
+	padding: 10px
+}
+
+.ced-log-meta::after {
+	content: '';
+	display: table;
+	clear: both
+}
+
+.ced-log-meta .ced-log-code,
+.ced-log-meta .ced-log-date,
+.ced-log-meta .ced-log-path {
+	font-size: 12px
+}
+
+.ced-log-meta .ced-log-code {
+	line-height: 25px
+}
+
+.ced-log-meta .ced-log-path {
+	font-size: 11px;
+	font-style: italic;
+	margin-bottom: 10px
+}
+
+.ced-log-meta .ced-log-action {
+	opacity: .8
+}
+
+.ced-log-actions__left,
+.ced-log-meta__left {
+	float: left;
+	width: 50%
+}
+
+.ced-log-actions__right,
+.ced-log-meta__right {
+	float: right;
+	width: 50%;
+	text-align: right
+}
+
+.ced-log-actions {
+	margin-bottom: 10px
+}
+
+.ced-log-actions::after {
+	content: '';
+	display: table;
+	clear: both
+}
+
+.ced-logs__item--active.ced-logs__item--error {
+	border-color: #dc3232
+}
+
+.ced-logs__item--active.ced-logs__item--error .ced-log-type {
+	color: #dc3232
+}
+
+.ced-logs__item--active.ced-logs__item--warning {
+	border-color: #ffb900
+}
+
+.ced-logs__item--active.ced-logs__item--warning .ced-log-type {
+	color: #ffb900
+}
+
+.ced-logs__item--active.ced-logs__item--info {
+	border-color: #00a0d2
+}
+
+.ced-logs__item--active.ced-logs__item--info .ced-log-type {
+	color: #00a0d2
+}
+
+.ced-logs__item--active .ced-log-message {
+	color: #444
+}
+
+.ced-logs__item--active .ced-log-action {
+	opacity: 1
+}
+
+.ced-log-notification {
+	position: fixed;
+	z-index: 9999;
+	width: 300px;
+	left: 10px;
+	bottom: 10px;
+	background: #fff8e5;
+	padding: 15px;
+	margin: 0;
+	border: 1px solid #ffb900;
+	border-left-width: 4px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .2)
+}
+
+.ced-log-notification .ced-log-notification__name {
+	font-weight: 700;
+	margin-bottom: 5px
+}
+
+.ced-log-notification .ced-log-notification__close {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	cursor: pointer;
+	color: #ffb900
+}
+
+.ced-log-notification p {
+	margin: 0;
+	font-style: italic
+}
+
+.ced-action {
+	margin: 0 0 10px;
+	padding: 0 0 10px;
+	border-bottom: 1px solid #ddd
+}
+
+.ced-pagination {
+	margin: 10px 0;
+	padding: 0
+}
+
+.ced-pagination li {
+	display: inline
+}

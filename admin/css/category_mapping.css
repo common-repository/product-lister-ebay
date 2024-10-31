@@ -1,0 +1,57 @@
+/* -- CATEGORY MAPPING CSS START -- */
+.ced_umb_ebay_toggle_wrapper {
+	width: 99%;
+}
+.ced_umb_ebay_toggle_wrapper .ced_umb_ebay_toggle_section h2 {
+	margin: 0;
+	font-weight: normal;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.ced_umb_ebay_toggle_wrapper .ced_umb_ebay_toggle_section {
+	margin: 10px 0;
+}
+.ced_umb_ebay_toggle_wrapper .ced_umb_ebay_toggle h2 {
+  color: #36518a;
+}
+
+.ced_umb_ebay_toggle_wrapper .ced_umb_ebay_cat_activate_ul.ced_umb_ebay_toggle_div ul{
+  margin-top: 0px;
+}
+
+.ced_umb_ebay_ebay_cat_mapping .ced_umb_ebay_toggle_section {
+	margin: 10px 0 10px 7px;
+	vertical-align: top;
+	width: 100%;
+}
+/* -- CATEGORY MAPPING CSS END -- */
+
+.ced_umb_ebay_cat_activate_ul.ced_umb_ebay_toggle_div ul li {
+	display: inline-block;
+	max-width: 270px;
+	width: 100%;
+	vertical-align: top;
+}
+
+.ced_umb_ebay_cat_activate_ul ul {
+	padding: 10px;
+}
+
+.ced_umb_ebay_ebay_cat_mapping.ced_umb_ebay_toggle_wrapper .ced_umb_ebay_toggle_section {
+	margin-left: 0;
+}
+
+/* category css **/
+.ced_umb_ebay_cat_activate_ul.ced_umb_ebay_toggle_div>button {
+	display: block;
+	margin-bottom: 10px;
+}
+.ced_umb_ebay_cat_activate_ul.ced_umb_ebay_toggle_div ul.ced_ebay_cat_ul {
+	display: inline-block;
+	vertical-align: top;
+}
+.ced_umb_ebay_cat_activate_ul.ced_umb_ebay_toggle_div ul.ced_ebay_cat_ul li{
+	display:block;
+	max-width:100%;
+}
+/* category css **/
